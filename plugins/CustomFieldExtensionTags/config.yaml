@@ -1,0 +1,26 @@
+# CustomField Extension Tags
+#
+# Release 0.01 (Apr 15, 2010)
+#
+# Copyright (c) 2004-2010 Yujiro Araki
+
+name: CustomField Extension Tags
+id: CustomFieldExtensionTags
+author_link: http://www.koikikukan.com/
+author_name: Yujiro Araki
+plugin_link: http://www.koikikukan.com/archives/2010/04/15-015555.php
+doc_link: http://www.koikikukan.com/archives/2010/04/15-015555.php
+description: <__trans phrase="CustomField Extension Tag.">
+l10n_lexicon:
+    ja:
+        CustomField Extension Tags.: カスタムフィールドの拡張テンプレートタグを提供します
+version: 0.01
+tags:
+    function:
+       CustomFieldID: $CustomFieldExtensionTags::CustomFieldExtensionTags::Tags::_hdlr_customfield_id
+       CustomFieldBlogID: $CustomFieldExtensionTags::CustomFieldExtensionTags::Tags::_hdlr_customfield_blog_id
+       CustomFieldType: $CustomFieldExtensionTags::CustomFieldExtensionTags::Tags::_hdlr_customfield_type
+       CustomFieldObjectType: $CustomFieldExtensionTags::CustomFieldExtensionTags::Tags::_hdlr_customfield_object_type
+       CustomFieldDefault: $CustomFieldExtensionTags::CustomFieldExtensionTags::Tags::_hdlr_customfield_default
+       CustomFieldOptions: $CustomFieldExtensionTags::CustomFieldExtensionTags::Tags::_hdlr_customfield_options
+       CustomFieldTag: $CustomFieldExtensionTags::CustomFieldExtensionTags::Tags::_hdlr_customfield_tag
